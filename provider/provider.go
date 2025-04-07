@@ -18,7 +18,7 @@ import (
 	"github.com/hashicorp/go-secure-stdlib/pluginutil/v2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	kms_plugin_assets "github.com/hashicorp/terraform-provider-boundary/plugins/kms"
+	kms_plugin_assets "github.com/joerit/terraform-provider-boundary/plugins/kms"
 )
 
 const (
