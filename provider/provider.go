@@ -66,6 +66,7 @@ func New() *schema.Provider {
 				Optional:    true,
 				Description: "The auth method password for password-style auth methods",
 				Deprecated:  "Use auth_method_password instead",
+				Sensitive:   true,
 			},
 			"auth_method_login_name": {
 				Type:        schema.TypeString,
@@ -76,6 +77,7 @@ func New() *schema.Provider {
 				Type:        schema.TypeString,
 				Optional:    true,
 				Description: "The auth method password for password-style or ldap-style auth methods",
+				Sensitive:   true,
 			},
 			"tls_insecure": {
 				Type:        schema.TypeBool,
